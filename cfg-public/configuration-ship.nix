@@ -129,10 +129,12 @@
     clojure
     closurecompiler
     cmake
+    conky
     cpufrequtils
     ctags
     curl
     ddrescue
+    debootstrap
     di
     dict
     docker
@@ -141,6 +143,8 @@
     dzen2
     elinks
     evince
+    fakechroot
+    fakeroot
     file
     firefox
     flac
@@ -161,6 +165,7 @@
     gperf
     graphicsmagick
     graphviz
+    groff
     guile
     gv
     hdparm
@@ -172,6 +177,7 @@
     imagemagick
     imgurbash
     inkscape
+    inotify-tools
     intel-gpu-tools
     irssi
     iw
@@ -192,6 +198,7 @@
     mutt
     ncftp
     netcat
+    newsbeuter
     nginx
     ngrep
     nixpkgs-lint
@@ -206,6 +213,7 @@
     perl
     pgadmin
     pinentry
+    pkgconfig
     plantuml
     plantuml
     pngcrush
@@ -215,6 +223,7 @@
     processing
     pstree
     python
+    python27Packages.pip
     python3
     qjackctl
     qpdf
@@ -234,10 +243,12 @@
     sox
     sshfsFuse
     stdmanpages
+    suidChroot
     tcpdump
     thinkfan
     tig
     tmux
+    tmuxinator
     umlet
     unrar
     unzip
@@ -408,7 +419,12 @@
     alt = {
       isNormalUser = true;
       uid = 1000;
-      extraGroups = [ "wheel" "networkmanager" "pulseaudio" "audio" "video" "power" "docker" ];
+      extraGroups = [ "users" "wheel" "networkmanager" "pulseaudio" "audio" "video" "power" "docker" ];
+    };
+    homedir = {
+      isNormalUser = true;
+      uid = 1001;
+      extraGroups = [ "users" "networkmanager" "pulseaudio" "audio" "video" "power" "docker" ];
     };
   };
 
