@@ -166,6 +166,7 @@
     graphicsmagick
     graphviz
     groff
+    gtk2
     guile
     gv
     hdparm
@@ -173,6 +174,7 @@
     htop
     i2c-tools
     idutils
+    ikiwiki
     imagemagick
     imagemagick
     imgurbash
@@ -196,12 +198,15 @@
     meld
     multitail
     mutt
+    ncdu
     ncftp
+    ncurses
     netcat
     newsbeuter
     nginx
     ngrep
     nixpkgs-lint
+    nox
     octave
     openjdk
     opera
@@ -209,11 +214,11 @@
     p7zip
     pandoc
     parallel
-    pass
     perl
     pgadmin
     pinentry
     pkgconfig
+    pkgs.gtk2
     plantuml
     plantuml
     pngcrush
@@ -221,8 +226,10 @@
     postgresql
     powertop
     processing
+    procps
     pstree
     python
+    python27Packages.curses
     python27Packages.pip
     python3
     qjackctl
@@ -244,22 +251,27 @@
     sshfsFuse
     stdmanpages
     suidChroot
+    surf
     tcpdump
     thinkfan
     tig
     tmux
     tmuxinator
+    tree
     umlet
+    unison
     unrar
     unzip
     upower
     urlview
+    uzbl
     vifm
     vim_configurable
     vlc
     wget
     which
     wpa_supplicant_gui
+    xclip
     xdg_utils
     xlaunch
     xorg.xev
